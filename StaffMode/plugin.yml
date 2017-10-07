@@ -1,0 +1,8 @@
+name: StaffMode
+version: 1.0
+main: nl.rens4000.staffmode.StaffMode
+author: rens4000
+commands:
+  staffmode:
+    description: Puts you into staffmode.
+    aliases: [sm, staffm]
