@@ -69,6 +69,8 @@ public class Events implements Listener {
 				return;
 			p.teleport(i);
 			p.sendMessage(StaffMode.getChatUtils().PREFIX + "You teleported to: " + i.getName());
+			e.setCancelled(true);
+			p.closeInventory();
 		}
 	}
 	
